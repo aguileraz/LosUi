@@ -179,10 +179,14 @@ Again, you can use the false parameter to get the default file:
 ```
 
 UPDATE: Starting from version 1.0.19, you can style the Chosen element with Bootstrap 3. Just pass a true as fourth parameter:
+```php
 <?= $this->losChosen('#my_select',['disable_search_threshold'=>10], true, true) ?>
+```
 
 Or you can manually include the necessary styles with:
+```php
 <?php echo $this->losHeadLink()->appendChosenBootstrap() ?>
+```
 
 ### Moment
 To include the script (can use append or prepend)
